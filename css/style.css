@@ -1,0 +1,495 @@
+@charset "utf-8";
+.about {
+	min-width: 100%;
+	padding-top: 17px;
+	padding-right: 16px;
+	padding-left: 28px;
+	font-size: 20px;
+	
+	
+}
+
+
+h1 {
+	text-align: center;
+	padding-top: 108px;
+
+}
+
+h4{
+	text-align: center;
+}
+fieldset {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-left: thick solid rgba(0,0,0,1.00);
+	border-right: thick solid rgba(0,0,0,1.00);
+	border-bottom: thick solid rgba(0,0,0,1.00);
+	border-top: medium solid rgba(0,0,0,1.00);
+	border-radius: 11px;
+	margin-top: 2px;
+	padding-top: 27px;
+	padding-left: 11px;
+
+}
+legend {
+	text-align: center;
+	padding-right: 59px;
+	padding-top: 21px;
+}
+body {
+	max-width: 100%;
+	height: auto;
+}
+
+.gall {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+	padding-top: 120px;
+	
+	
+}
+
+ul{
+	list-style: none;
+}
+
+.container{
+	margin: auto;
+	
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.socialicons a{
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+
+.footer-col1{
+	
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footlink{
+	text-decoration: none;
+	color: black;
+	
+
+}
+
+.homeb:hover{
+	transform:scale(1.1);
+}
+
+a:hover{
+	transform:scale(1.1);color:darkgoldenrod;
+}
+
+.gridimage {
+	max-width: 100%;
+	height: 300px;
+}
+
+.gridimage:hover{
+	transform: scale(1.3);
+	transition: 0.34s all ease;
+	
+}
+.galgrid {
+	display: grid;
+	grid-template-columns: 450px 450px 450px;
+	grid-template-rows: 300px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+button {
+	
+	background-color: black;
+	color: white;
+	font-size: 30px
+	;
+}
+
+
+
+.banner-text {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	top: 0;
+	padding: 10px;
+	
+	
+	color: white;
+}
+.aboutbod {
+	background-image: url(../images/about.jpg);
+	background-size: 100%;
+	
+
+	background-repeat: no-repeat;
+	
+}
+
+.abinfo{
+	padding-top: 10px;
+	width: 100%;
+	display: flex;
+}
+.para {
+	font-size: 26px;
+	padding-left: 50px;
+	width: 50%;
+	background-color: aliceblue;
+	border-radius: 60px;
+	border-style: solid;
+	
+	
+	
+}
+.opening {
+	font-size: 30px;
+	width: 45%;
+	float: left;
+	padding-top: 60px;
+	padding-left: 220px;
+	background-color: aliceblue;
+	border-radius: 60px;
+	border-style: solid;
+	
+}
+
+.doghotel{
+	padding-top: 100px;
+	width: 100%;
+	display: flex;
+	
+}
+.hotel {
+	background-image: url(../images/hotel.jpg);
+}
+
+
+.prices{
+	font-size: 33px;
+	width: 50%;
+	float: left;
+	padding-top: 90px;
+	padding-left: 180px;
+	background-color: lightgray;
+	border-radius: 60px;
+	border-style: solid;
+}
+
+.info{
+	
+	font-size: 28px;
+	width: 50%;
+	height:500px;
+	float: left;
+	padding-left: 60px;
+	background-color: lightgray;
+	border-radius: 60px;
+	border-style: solid;
+	
+}
+.grooming {
+	background-image: url(../images/grooming.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height:auto){
+	
+	
+	
+}
+
+
+
+
+
+.navbar.fixed-top.navbar-expand-lg.navbar-dark {
+	-webkit-box-shadow: 0px 0px rgba(0,0,0,1.00);
+	box-shadow: 0px 0px rgba(0,0,0,1.00);
+	color: rgba(0,0,0,1.00);
+	
+}
+
+
+
+
+
+
+
+
+.nav-link {
+	color: rgba(0,0,0,1.00);
+}
+footer {
+
+	height: auto;
+	margin-top: auto;
+	padding:10px 0;
+	bottom:0;
+	width: 100%;
+	background-color: #E7D3FF
+}
+
+
+
+
+
+
+
+h1 {
+	padding-top: 125px;
+}
+
+label {
+	padding-left: 140px;
+	padding-top: 26px;
+	padding-bottom: 31px;
+}
+textarea {
+	top: 41px;
+	padding-top: 8px;
+	
+}
+
+.grid{
+	height: 1360px;
+	overflow: scroll;
+	align-content: center;
+	
+	
+	
+	
+}
+.homeimg{
+	padding-top: 70px;
+}
+
+@media (max-width: 600px){
+	.aboutbod{
+		height: auto;
+	}
+	
+	.booking{
+		padding-bottom: 30px;
+	}
+	
+	fieldset{
+		padding-bottom: 50px;
+	}
+	
+.homeimg {
+	width: 100%;
+	
+}
+	
+	
+	.banner-text{
+	width: 100%;
+	padding-right: 0px;
+		display: block;
+	}
+.banner-button {
+	font-size: 20px;
+	width: 100%;
+	display: block;
+	
+	
+}
+	
+	
+	.abinfo{
+		display: block;
+		padding-top: 100px;
+	}
+	.para{
+		width: 100%;
+		display: block;
+		
+	}
+	
+	.opening{
+		width: 100%;
+		
+	}
+	
+	label{
+		padding-right: 60px;
+		text-align: left;
+	}
+	
+	input{
+		display: block;
+		width: 100%;
+	}
+	
+	textarea{
+		width:100%;
+	}
+	
+	.doghotel{
+		display: block;
+	}
+	
+	.prices{
+		width: 100%;
+	}
+	
+	.info{
+		height: auto;
+		display: block;
+		width:100%;
+		
+	}
+	fieldset{
+	width: 100%;
+	display: block;
+	}
+	
+	.galgrid{
+		display: block;
+		width: 100%;
+	
+	
+
+}
+	
+	.footer{
+		padding-top: 50px;
+	}
+	.footer-col1{
+		max-height:auto;
+		padding-top: 60px;
+		display: block;
+		width: 100%;
+	}
+	
+	.homeb{
+		display: block;
+		width: 100%;
+	}
+	
+	.groomb{
+		width: 100%;
+		display: block;
+	}
+}
+
+@media (min-width:601px){
+	.banner-text {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	top: 0;
+	padding: 10px;
+	padding-left: 300px;
+	}
+	
+	.banner-button {
+	font-size: 40px;
+		width: 100%;
+		padding-left: 200px;
+	display:inline-flex;
+    
+		
+}
+	
+	
+	fieldset{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		max-width: 50%;
+		padding-bottom: 50px;
+	}
+	
+	label{
+		display: block;
+		
+	}
+	
+	input{
+		width: 80%;
+		
+	}
+	
+	.homeb{
+		width: 70%;
+		padding-right: 100px;
+	}
+	
+	.groomb{
+		width: 100%;
+		
+		
+	}
+	
+	.index{
+		padding-top: 100px;
+		padding-right: 200px;
+		padding-left: 200px;
+		padding-bottom: 50px;
+		font-size: 25px;
+	}
+	
+	.info{
+		padding-top: 150px;
+	}
+	
+	.informationt{
+		padding-bottom: 55px;
+	}
+	.para{
+		padding-right: 50px;
+	}
+	
+	.abinfo{
+		padding-left: 20px;
+		padding-bottom: 80px;
+	}
+	
+	.doghotel{
+		padding-bottom: 80px;
+	}
+	
+	.booking{
+		padding-bottom: 50px;
+	}
+	
+	
+	
+}
